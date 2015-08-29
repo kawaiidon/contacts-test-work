@@ -6,16 +6,12 @@
 ul {
     margin: 0;
 }
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-}
+
 .wrapper{
     margin: 0 auto;
     max-width: 1650px;
 }
-
+/* Header */
 .main-header{
     width: 100%;
     height: 140px;
@@ -35,7 +31,7 @@ ul {
     height: 90px;
     width: 90px;
 }
-
+/* Header menu */
 .main-menu {
     margin: 0 auto;
     /* margin-top: 55px; */
@@ -106,6 +102,7 @@ ul {
     width: 100%;
     background: url(../img/content-bg.png);
 }
+/* Form */
 .call-form{
     width: 200px;
     float: left;
@@ -141,15 +138,13 @@ ul {
 .contact{
     margin-top: 54px;
     height: 175px;
+    
     &__row{
         position: relative;
         clear: both;
     }
     &__row_bottom{
         margin-top: 68px;
-        &:nth-child(2){
-        margin-top: 100px;
-        }
     }
     &__position{
         font-family: 'circe';
@@ -183,7 +178,7 @@ ul {
         margin-right: 5px;
     }
 }
-
+/* Google maps */
 #map_canvas {
     width: 100%;
     height: 440px;
@@ -198,7 +193,7 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
 .gmnoprint div {
     background:none !important;
 }
-
+/* Footer */
 .main-footer{
     width: 100%;
     height: 58px;
@@ -212,30 +207,36 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
     color: #c7c7c7;
     text-transform: uppercase;
     float: left;
-    padding-top: 24px;
+    padding-top: 22px;
+    margin-left: 87px;
 }
 .companys{
-    width: 678px;
+    max-width: 450px;
     padding-top: 14px;
-    float: left;
-    padding-left: 176px;
+    margin: auto;
     &__item{
         display: inline-block;
-        padding-right: 30px;
+        margin-left: 35px;
     }
-    &__logo{
-
+    &__bbdo{
+        float: left;
+        margin-left: 142px;
+        margin-top: 22px;
     }
 }
+
 .sub-menu{
     float: right;
+    margin-top: -26px;
     &__link{
         text-decoration: none;
         text-transform: uppercase;
         font-family: 'circe';
         color: white;
+        font-size: 13px;
         font-weight: bold;
-        margin-left: 100px;
+        margin-right: 55px;
+        margin-left: 63px;
     }
 }
 /* animation */
@@ -250,19 +251,19 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
     letter-spacing: 1.5px;
     border-bottom: 1px solid #484848;
     &__field {
-	position: relative;
-	display: block;
-	float: right;
-	border: none;
-	-webkit-appearance: none; /* for box shadows to show on iOS */
-        &:focus{
-            outline: none;
-        }
-        &--nao {
-        padding: 14px 0px 0px;
-        width: 100%;
-        background: transparent;
-        }
+        position: relative;
+        display: block;
+        float: right;
+        border: none;
+        -webkit-appearance: none; /* for box shadows to show on iOS */
+            &:focus{
+                outline: none;
+            }
+            &--nao {
+                padding: 14px 0px 0px;
+                width: 100%;
+                background: transparent;
+            }
     }
     &__label {
 	display: inline-block;
@@ -274,23 +275,23 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
 	-ms-user-select: none;
 	user-select: none;
         &-content {
-        position: relative;
-        display: block;
-        padding: 20px 0;
-        width: 100%;
+            position: relative;
+            display: block;
+            padding: 20px 0;
+            width: 100%;
         }
         &--nao {
-        position: absolute;
-        top: -15px;
-        left: 0;
-        display: block;
-        width: 100%;
-        text-align: left;
-        pointer-events: none;
-        -webkit-transform-origin: 0 0;
-        transform-origin: 0 0;
-        -webkit-transition: -webkit-transform 0.3s 0.1s, color 0.3s;
-        transition: transform 0.3s 0.1s, color 0.3s;
+            position: absolute;
+            top: -15px;
+            left: 0;
+            display: block;
+            width: 100%;
+            text-align: left;
+            pointer-events: none;
+            -webkit-transform-origin: 0 0;
+            transform-origin: 0 0;
+            -webkit-transition: -webkit-transform 0.3s 0.1s, color 0.3s;
+            transition: transform 0.3s 0.1s, color 0.3s;
         }
     }
 }

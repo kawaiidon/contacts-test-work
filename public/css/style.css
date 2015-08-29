@@ -5,15 +5,11 @@
 ul {
   margin: 0;
 }
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 .wrapper {
   margin: 0 auto;
   max-width: 1650px;
 }
+/* Header */
 .main-header {
   width: 100%;
   height: 140px;
@@ -32,6 +28,7 @@ ul {
   height: 90px;
   width: 90px;
 }
+/* Header menu */
 .main-menu {
   margin: 0 auto;
   /* margin-top: 55px; */
@@ -100,6 +97,7 @@ ul {
   width: 100%;
   background: url(../img/content-bg.png);
 }
+/* Form */
 .call-form {
   width: 200px;
   float: left;
@@ -143,9 +141,6 @@ ul {
 .contact__row_bottom {
   margin-top: 68px;
 }
-.contact__row_bottom:nth-child(2) {
-  margin-top: 100px;
-}
 .contact__position {
   font-family: 'circe';
   color: white;
@@ -174,6 +169,7 @@ ul {
   margin-top: 17px;
   margin-right: 5px;
 }
+/* Google maps */
 #map_canvas {
   width: 100%;
   height: 440px;
@@ -193,6 +189,7 @@ a[href^="https://maps.google.com/maps"] {
 .gmnoprint div {
   background: none !important;
 }
+/* Footer */
 .main-footer {
   width: 100%;
   height: 58px;
@@ -205,28 +202,36 @@ a[href^="https://maps.google.com/maps"] {
   color: #c7c7c7;
   text-transform: uppercase;
   float: left;
-  padding-top: 24px;
+  padding-top: 22px;
+  margin-left: 87px;
 }
 .companys {
-  width: 678px;
+  max-width: 450px;
   padding-top: 14px;
-  float: left;
-  padding-left: 176px;
+  margin: auto;
 }
 .companys__item {
   display: inline-block;
-  padding-right: 30px;
+  margin-left: 35px;
+}
+.companys__bbdo {
+  float: left;
+  margin-left: 142px;
+  margin-top: 22px;
 }
 .sub-menu {
   float: right;
+  margin-top: -26px;
 }
 .sub-menu__link {
   text-decoration: none;
   text-transform: uppercase;
   font-family: 'circe';
   color: white;
+  font-size: 13px;
   font-weight: bold;
-  margin-left: 100px;
+  margin-right: 55px;
+  margin-left: 63px;
 }
 /* animation */
 .input {
