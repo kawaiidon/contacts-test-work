@@ -54,6 +54,11 @@ ul {
   padding-bottom: 6px;
   color: white;
 }
+.main-menu__link_active {
+  border-bottom: 2px solid white;
+  padding-bottom: 6px;
+  color: white;
+}
 .phone {
   height: 30px;
   color: white;
