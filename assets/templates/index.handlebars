@@ -3,13 +3,11 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
+        <title>Test task</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
-
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/style.css">
@@ -22,7 +20,7 @@
         
         <!-- header -->
         <header class="main-header">
-
+               <div class="wrapper">
                 <div class="logo"></div>
             <!-- main menu -->
                <div  class="main-menu">
@@ -50,7 +48,6 @@
                 </ul>
             </div>
                 <!-- end of main menu -->
-
                 <div class="phone phone-top">
                     <span class="phone__code">
                         +7 495
@@ -59,6 +56,7 @@
                         123 45 67
                     </span>
                 </div>
+            </div>
         </header>
         <!-- end of header -->
         <!-- main content -->
@@ -68,7 +66,7 @@
                 <h2 class="call-form__title">
                     Свяжитесь с нами
                 </h2>
-            <form action="">
+            <form action="#">
 				<span class="input input--nao">
 					<input class="input__field input__field--nao" type="text" id="input-1" />
 					<label class="input__label input__label--nao" for="input-1">
@@ -88,8 +86,8 @@
 					</label>
 				</span>
 				<span class="input input--nao">
-					<input class="input__field input__field--nao" type="text" id="input-3" />
-					<label class="input__label input__label--nao" for="input-3">
+					<input class="input__field input__field--nao" type="text" id="input-4" />
+					<label class="input__label input__label--nao" for="input-4">
 						<span class="input__label-content input__label-content--nao">Телефон</span>
 					</label>
 				</span>                				
@@ -98,57 +96,95 @@
             </div>
             <div class="contacts">
                 <div class="contact">
-                    <img src="../img/kn-frank.png" alt="logo" class="contact__logo">
-                    <h3 class="contact__position">
-                        Эксклюзивный брокер
-                    </h3>
-                    <span class="contact__name">
-                        Александр Строганов
-                    </span>
-                    <div class="phone phone-contact">
-                        <span class="phone__code">
-                            +7 495
-                        </span>
-                        <span class="phone__num">
-                            123 45 67
-                        </span>
+                    <div class="contact__row">                       
+                        <img src="../img/kn-frank.png" alt="logo" class="contact__logo">
+                        <h3 class="contact__position">
+                            Эксклюзивный брокер
+                        </h3>
                     </div>
-                    <span class="contact__mail">
-                        mail@mail.ru
-                    </span>
+                    <div class="contact__row contact__row_bottom">
+                        <span class="contact__name">
+                            Александр Строганов
+                        </span>
+                        <div class="phone phone-contact">
+                            <span class="phone__code">
+                                +7 495
+                            </span>
+                            <span class="phone__num">
+                                123 45 67
+                            </span>
+                        </div>
+                        <span class="contact__mail">
+                            mail@mail.ru
+                        </span>
+                    </div>                     
                 </div>
                 <div class="contact">
-                    <img src="../img/leader.png" alt="logo" class="contact__logo">
-                    <h3 class="contact__position">
-                        Хуй с горы
-                    </h3>
-                    <span class="contact__name">
-                        Александр Строганов
-                    </span>
-                    <div class="phone phone-contact">
-                        <span class="phone__code">
-                            +7 495
-                        </span>
-                        <span class="phone__num">
-                            123 45 67
-                        </span>
+                    <div class="contact__row">  
+                        <img src="../img/leader-logo.png" alt="logo" class="contact__logo">
+                        <h3 class="contact__position">
+                            Девелопер
+                        </h3>
                     </div>
-                    <span class="contact__mail">
-                        mail@mail.ru
-                    </span>
+                    <div class="contact__row contact__row_bottom">  
+                        <span class="contact__name">
+                            Александр Строганов
+                        </span>
+                        <div class="phone phone-contact">
+                            <span class="phone__code">
+                                +7 495
+                            </span>
+                            <span class="phone__num">
+                                123 45 67
+                            </span>
+                        </div>
+                        <span class="contact__mail">
+                            mail@mail.ru
+                        </span>
+                    </div>                    
                 </div>             
             </div>
           </div>
-          <!-- Google map -->
-           <div id="map_canvas"></div>
+           <!-- Google map -->
+           <div id="map_canvas"></div>   
            <!-- end of google map -->
-
         </main>
-
         <!-- end of main content -->
         <!-- footer -->
         <footer class="main-footer">
-            
+            <div class="wrapper">
+                <span class="copyright">
+                   &copy; 2015 Лидер инвест
+                </span>
+                <ul class="companys">
+                    <li class="companys__item">
+                        <img src="../img/bbdo.png" alt="company logo" class="companys__logo">
+                    </li>
+                    <li class="companys__item">
+                        <img src="../img/zon.png" alt="company logo" class="companys__logo">
+                    </li>
+                    <li class="companys__item">
+                        <img src="../img/logo2.png" alt="company logo" class="companys__logo">
+                    </li>
+                    <li class="companys__item">
+                        <img src="../img/leader.png" alt="company logo" class="companys__logo">
+                    </li>
+                    <li class="companys__item">
+                        <img src="../img/knight.png" alt="company logo" class="companys__logo">
+                    </li>
+                    <li class="companys__item">
+                        <img src="../img/logo1.png" alt="company logo" class="companys__logo">
+                    </li>
+                </ul> 
+                <div class="sub-menu">
+                    <a href="#" class="sub-menu__link">
+                        Ход строительства
+                    </a>
+                    <a href="#" class="sub-menu__link">
+                        Проектная декларация
+                    </a>
+                </div>               
+            </div>    
         </footer>
         <!-- end of footer -->
         
@@ -158,7 +194,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+        <script src="js/app.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
