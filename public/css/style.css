@@ -54,11 +54,12 @@ ul {
   padding-bottom: 6px;
   color: white;
 }
-.main-menu__link_active {
+.main-menu__link--active {
   border-bottom: 2px solid white;
   padding-bottom: 6px;
   color: white;
 }
+/* Phone numbers */
 .phone {
   height: 30px;
   color: white;
@@ -79,16 +80,16 @@ ul {
   font-size: 32px;
   font-weight: bold;
 }
-.phone-top {
+.phone--top {
   margin-top: 62px;
   float: right;
   margin-right: 50px;
 }
-.phone-contact {
+.phone--contact {
   margin-top: 8px;
   margin-left: 8px;
 }
-.phone-contact:before {
+.phone--contact:before {
   content: "";
   position: absolute;
   width: 268px;
@@ -129,6 +130,7 @@ ul {
   border: 2px solid #2a2a2a;
   letter-spacing: -1px;
 }
+/* Peoples list */
 .contacts {
   float: left;
   width: 532px;

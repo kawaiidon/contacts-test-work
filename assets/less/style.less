@@ -56,13 +56,14 @@ ul {
             padding-bottom: 6px;
             color: white;
         }
-        &_active{
+        &--active{
             border-bottom: 2px solid white;
             padding-bottom: 6px;
             color: white;    
         }
     }
 }
+/* Phone numbers */
 .phone {
     height: 30px;
     color: white;
@@ -82,27 +83,26 @@ ul {
         font-size: 32px;
         font-weight: bold;
     }
-}
-.phone-top{
-    margin-top: 62px;
-    float: right;
-    margin-right: 50px;
-}
-.phone-contact{
-    margin-top: 8px;
-    margin-left: 8px;
-    &:before{
-        content: "";
-        position: absolute;
-        width: 268px;
-        height: 58px;
-        border-left: 1px solid #484848;
-        border-right: 1px solid #484848;
-        left: 133px;
-        bottom: -7px;
+    &--top{
+        margin-top: 62px;
+        float: right;
+        margin-right: 50px;
+    }
+    &--contact{
+        margin-top: 8px;
+        margin-left: 8px;
+        &:before{
+            content: "";
+            position: absolute;
+            width: 268px;
+            height: 58px;
+            border-left: 1px solid #484848;
+            border-right: 1px solid #484848;
+            left: 133px;
+            bottom: -7px;
+        }
     }
 }
-
 .content{
     width: 100%;
     background: url(../img/content-bg.png);
@@ -134,6 +134,7 @@ ul {
         letter-spacing: -1px;
     }
 }
+/* Peoples list */
 .contacts{
     float: left;
     width: 532px;
