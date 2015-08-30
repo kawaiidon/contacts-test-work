@@ -148,6 +148,9 @@ ul {
 .contact__row_bottom {
   margin-top: 68px;
 }
+.contact__fix {
+  margin-top: 52px;
+}
 .contact__position {
   font-family: 'circe';
   color: white;
@@ -173,7 +176,7 @@ ul {
   font-size: 15px;
   font-family: 'circe';
   float: right;
-  margin-top: 17px;
+  margin-top: 23px;
   margin-right: 5px;
 }
 /* Google maps */
@@ -240,7 +243,7 @@ a[href^="https://maps.google.com/maps"] {
   margin-right: 55px;
   margin-left: 63px;
 }
-/* animation */
+/* input from and animation */
 .input {
   position: relative;
   z-index: 1;
@@ -264,7 +267,7 @@ a[href^="https://maps.google.com/maps"] {
   outline: none;
 }
 .input__field--nao {
-  padding: 14px 0px 0px;
+  padding: 13px 0px 1px;
   width: 100%;
   background: transparent;
 }
@@ -286,8 +289,8 @@ a[href^="https://maps.google.com/maps"] {
 }
 .input__label--nao {
   position: absolute;
-  top: -15px;
-  left: 0;
+  top: -6px;
+  left: 2px;
   display: block;
   width: 100%;
   text-align: left;
@@ -305,12 +308,12 @@ a[href^="https://maps.google.com/maps"] {
 .input__field--nao:focus + .input__label--nao,
 .input--filled .input__label--nao {
   color: #6e6e6e;
-  -webkit-transform: translate3d(0, -3px, 0) scale3d(0.75, 0.75, 1);
-  transform: translate3d(0, -3px, 0) scale3d(0.75, 0.75, 1);
+  -webkit-transform: translate3d(0, -10px, 0) scale3d(0.7, 0.7, 1);
+  transform: translate3d(0, -10px, 0) scale3d(0.7, 0.7, 1);
 }
 .input__field--nao:focus ~ .graphic--nao,
 .input--filled .graphic--nao {
   stroke: #6e6e6e;
-  -webkit-transform: translate3d(-66.6%, 0, 0);
-  transform: translate3d(-66.6%, 0, 0);
+  -webkit-transform: translate3d(-55.6%, 0, 0);
+  transform: translate3d(-55.6%, 0, 0);
 }
